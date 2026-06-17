@@ -1,6 +1,6 @@
 {
   "name": "@vertaaux/sdk",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Official TypeScript SDK for VertaaUX.ai — AI-powered UX and accessibility auditing",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -59,10 +59,14 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "tsup": "^8.0.0",
-    "typescript": "^5.0.0",
-    "vitest": "^4.0.0",
-    "yaml": "^2.8.2"
+    "@types/node": "^25.9.3",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9",
+    "yaml": "^2.9.0"
+  },
+  "overrides": {
+    "esbuild": "^0.28.1",
+    "rollup": "^4.62.0"
   }
 }
